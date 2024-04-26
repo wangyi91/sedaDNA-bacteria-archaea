@@ -1,1 +1,1 @@
-# bac-arc-sedaDNA
+# sedaDNA bacteria archaea
