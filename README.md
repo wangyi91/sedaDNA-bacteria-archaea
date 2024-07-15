@@ -18,10 +18,15 @@ The input files for analyses in this repository are:
 * Metadata are located in [metadata](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/metadata)
 
 ## Steps of sequence analyses
-* [InitialExploration](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/InitialExploration)
-* [DamageAnalysis](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/DamageAnalysis)
-* [NetworkAnalysis](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/NetworkAnalysis)
-* [MicrobeProfilling](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/MicrobeProfilling)
+### [InitialExploration](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/InitialExploration)
+This directory contains `load_data.jl` that is necessary for all other steps. `_initial_load.jl` contains useful functions.
+
+### [DamageAnalysis](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/DamageAnalysis)
+
+The following analyses can be done in parallel to each other
+### [NetworkAnalysis](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/NetworkAnalysis)
+
+### [MicrobeProfilling](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/MicrobeProfilling)
 
 ## Age-depth model
 * [OxCal_model](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/OxCal_model)
