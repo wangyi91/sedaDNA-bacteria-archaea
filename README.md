@@ -3,6 +3,8 @@
 
 This repository contains scripts for data analyses and visualisation for bacteria and archaea recorded in the sedimentary ancient DNA of Lake Constance.  
 
+The manuscript of this study is currently under review in _Current Biology_.
+
 ## Prerequisite steps
 
 Before using scripts in this repository, raw sequence data (fastq files) should be first processed with scripts in the repository [shotgun-data-processing](https://github.com/wangyi91/shotgun-data-processing.git). 
@@ -13,6 +15,14 @@ Then, fastq files are mapped against reference databases using the [aMAW-pipelin
 The input files for analyses in this repository are: 
 
 * The output file `results/taxonomic-profiling-dmg/tp-mdmg.lca.weight-1.csv.gz` of `metaDMG`. 
-* Metadata are located in [metadata](#metadata)
+* Metadata are located in [metadata](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/metadata)
 
-## Steps of analyses
+## Steps of sequence analyses
+[InitialExploration]
+[DamageAnalysis]
+[NetworkAnalysis]
+[MicrobeProfilling]
+
+## Age-depth model
+[OxCal_model]
+[AgeDepthModel]
