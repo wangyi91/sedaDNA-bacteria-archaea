@@ -19,11 +19,13 @@ The input files for analyses in this repository are:
 
 ## Steps of sequence analyses
 ### [InitialExploration](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/InitialExploration)
-This directory contains `load_data.jl` that is necessary for all other steps. `_initial_load.jl` contains useful functions.
+`load_data.jl` in this directory is necessary to run for all other steps. `_initial_load.jl` contains functions that are needed.
 
 ### [DamageAnalysis](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/DamageAnalysis)
+`plot_dmg_density_on_single_plot.jl` makes plots of DNA damage. `living_species.jl` defines living microbes.
 
-The following analyses can be done in parallel to each other
+
+The following analyses can be done in parallel to each other:
 ### [NetworkAnalysis](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/NetworkAnalysis)
 
 ### [MicrobeProfilling](https://github.com/wangyi91/sedaDNA-bacteria-archaea/tree/main/MicrobeProfilling)
