@@ -1,4 +1,4 @@
-#  Prokaryote data analyses of sedimentary aDNA in Lake Constance
+#  Analyses of prokaryote sedimentary aDNA in Lake Constance
 ## Background
 
 This repository contains scripts for data analyses and visualisation for bacteria and archaea recorded in the sedimentary ancient DNA of Lake Constance.  
